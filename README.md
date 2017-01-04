@@ -2,5 +2,5 @@
 A series of useful Python Scripts and program
 
 ```Python
-python [script_name].py [params]
+python [script_name].py [params] k
 ```
