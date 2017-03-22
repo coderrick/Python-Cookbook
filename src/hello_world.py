@@ -1,1 +1,1 @@
-print "Wsup"
+print("Wsup")
