@@ -26,12 +26,20 @@
 
  '''
 
- class Person:
-   def __init__(self, first_name, last_name, address, username):
+class Person:
+  def __init__(self, first_name, last_name, address, username):
      self.first_name = first_name
      self.last_name = last_name
      self.address = address
      self.username = username
 
-     
+  def displayPersonDetails(self):
+    print("Name: " + self.first_name + " " + self.last_name)
+    print("Address: " + self.address)
+    print("Username: " + self.username)
+
+p = Person("Derrick", "WD", "No man's land", "Wildunderrick")
+p.displayPersonDetails()
+
+
 
