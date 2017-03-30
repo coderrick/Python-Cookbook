@@ -12,3 +12,8 @@ class subclass(parentclass):
         parentclass.__init__(self)
         self.new_subclass_attributes = 'sumptin'
 '''
+
+class BlackPerson(Person):
+  def __init__(self):
+    Person.__init__(self):
+    self.race = 'African American'
