@@ -13,7 +13,7 @@ class subclass(parentclass):
         self.new_subclass_attributes = 'sumptin'
 '''
 
-class BlackPerson(Person):
+class BlackPerson(oop.Person):
   def __init__(self):
-    Person.__init__(self):
+    oop.Person.__init__(self)
     self.race = 'African American'
