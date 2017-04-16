@@ -14,4 +14,5 @@ def compress_str(str):
       print(f"current count {i}")
     else:
       #Push to new list 
+      #Reset the count
       lettercnt = 0
