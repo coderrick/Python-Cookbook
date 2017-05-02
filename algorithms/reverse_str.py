@@ -12,8 +12,8 @@ def reverse_str(str):
       s[start_idx], s[end_idx] = s[end_idx], s[start_idx]
       start_idx += 1
       end_idx -= 1
+    print(s)
 
 if __name__ == "__main__":
-  reverse_str('ldikdlfdf')
-  #print(sys.argv[1])
+  reverse_str(sys.argv[1])
 
