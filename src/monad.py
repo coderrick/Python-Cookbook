@@ -2,9 +2,9 @@
 Monads in Python ofijnfddf
 '''
 class Monad:
-  def __init__(self):
+  #def __init__(self):
 
-  def monad_greeting():
+  def monad_greeting(self):
     print("Embarking on Monad journey")
     
 p = Monad()
